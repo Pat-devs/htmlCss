@@ -1,11 +1,14 @@
+/* select the body tag, and change the margin */
 body {
     display: block;
     margin: 80px;
 }
 
+/* select the header tag, and add several styles to it */
 header {
-    color: red;
-    background-color: aqua;
+    font-weight: bold; 
+    color: red; /* change color to red */
+    background-color: aqua; /* set background-color to aqua */
 }
 
 main {
@@ -15,4 +18,9 @@ main {
 footer {
     color: white;
     background-color: black;
+}
+
+/* select all tags that have the class "product-container" */
+.product-container {
+    background-color: grey;
 }
