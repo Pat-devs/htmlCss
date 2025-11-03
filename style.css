@@ -1,7 +1,7 @@
 /* select the body tag, and change the margin */
 body {
     display: block;
-    margin: 80px;
+    margin: 8px;
 }
 
 /* select the header tag, and add several styles to it */
@@ -17,10 +17,11 @@ main {
 
 footer {
     color: white;
-    background-color: black;
+    background-color: rgb(44, 16, 16);
 }
 
 /* select all tags that have the class "product-container" */
 .product-container {
     background-color: grey;
+    margin-top: 20px; /* sets margin above the element only, to set margin all around use the other margin properties such as margin:, or margin-block, or margin-left etc... */
 }
