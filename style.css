@@ -2,3 +2,17 @@ body {
     display: block;
     margin: 80px;
 }
+
+header {
+    color: red;
+    background-color: aqua;
+}
+
+main {
+    margin: 50px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
